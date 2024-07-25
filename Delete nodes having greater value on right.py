@@ -11,7 +11,6 @@ class Solution:
         #Your code here
         if not head or not head.next:
             return head
-        
         prev = None
         cur= head
         dummy=Node(0)

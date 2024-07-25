@@ -20,4 +20,4 @@ class Solution(object):
             else:
                 slow = slow.next
                 reversed_node = reversed_node.next
-        return True
+        return True #
