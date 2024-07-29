@@ -6,4 +6,4 @@ class Solution:
             for j in range(i, 2 * i):
                 product *= (n - j) / (j - i + 1)
             ways += product
-        return int(ways)
+        return int(ways) # returning value

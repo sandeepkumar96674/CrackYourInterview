@@ -9,4 +9,4 @@ class Solution:
             return max(left, right) + 1        
         res = [0]
         diameter(root, res)
-        return res[0]
+        return res[0] #returning the value

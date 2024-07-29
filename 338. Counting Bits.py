@@ -6,4 +6,4 @@ class Solution:
             if sub * 2 == i:
                 sub = i
             dp[i] = dp[i - sub] + 1
-        return dp
+        return dp #return the value
